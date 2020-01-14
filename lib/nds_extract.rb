@@ -29,7 +29,7 @@ def directors_totals(nds)
       gross_total += nds[outer_index][:movies][inner_index][:worldwide_gross]
       inner_index += 1
     end
-    output_hash[:name] = gross_total
+    output_hash[name] = gross_total
     outer_index += 1
   end
   output_hash
