@@ -19,6 +19,11 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
+  gross_total = 0
+  output_hash = {}
+  while
+  
+  
   pp directors_database
   
 end
