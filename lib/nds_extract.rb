@@ -23,7 +23,7 @@ def directors_totals(nds)
   output_hash = {}
   outer_index = 0
   while outer_index < directors_database.count do
-    
+    puts directors_database[outer_index][0]
   end
   pp directors_database
   
