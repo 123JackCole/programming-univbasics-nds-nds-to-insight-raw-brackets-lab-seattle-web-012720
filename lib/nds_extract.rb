@@ -19,13 +19,18 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-  gross_total = 0
   output_hash = {}
   outer_index = 0
   while outer_index <= directors_database.count do
-    output_hash directors_database[outer_index][:name]: 
+    name = output_hash directors_database[outer_index][:name]
+    inner_index = 0
+    while inner_index < directors_database[outer_index][:movies].count do
+    gross_total += directors_database[outer_index][:movies][0][:worldwide_gross]
+    inner_index++ 
+    end
     
+    outer_index += 1
   end
-  pp directors_database
+  output_hash
   
 end
