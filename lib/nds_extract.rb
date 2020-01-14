@@ -21,9 +21,9 @@ def directors_totals(nds)
   
   gross_total = 0
   output_hash = {}
-  outer_index = 0
-  while outer_index < directors_database.count do
-    puts directors_database[outer_index][0]
+  outer_index = 1
+  while outer_index <= directors_database.count do
+    puts  #{directors_database[outer_index][:name]}
   end
   pp directors_database
   
