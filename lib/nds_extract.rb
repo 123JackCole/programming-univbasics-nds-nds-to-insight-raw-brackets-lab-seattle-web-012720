@@ -21,7 +21,8 @@ def directors_totals(nds)
   
   gross_total = 0
   output_hash = {}
-  while
+  
+  while < directors_database.count
   
   
   pp directors_database
