@@ -21,10 +21,10 @@ def directors_totals(nds)
   
   gross_total = 0
   output_hash = {}
-  
-  while < directors_database.count
-  
-  
+  outer_index = 0
+  while outer_index < directors_database.count do
+    
+  end
   pp directors_database
   
 end
